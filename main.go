@@ -1,7 +1,11 @@
 package main
 
-import "github.com/narendrachukka/hfdp/strategy"
+import (
+	"github.com/narendrachukka/hfdp/observer"
+	"github.com/narendrachukka/hfdp/strategy"
+)
 
 func main() {
 	strategy.RunStrategy()
+	observer.RunObserver()
 }
