@@ -1,3 +1,3 @@
-module github.com/narendrachukka/hfdp
+module github.com/nrnc/designpatternsgo
 
 go 1.18
